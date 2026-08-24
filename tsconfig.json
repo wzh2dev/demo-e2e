@@ -1,15 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es2023",
-    "strict": true
+    "module": "es6",
+    "target": "es6",
+    "strict": true,
+    "removeComments": true,
+    "lib": ["es6"],
+    "outDir": "dist"
   },
-  "include": [
-    "src/**/*.ts",
-    "tests/**/*.ts",
-    "vitest*.config.ts"
-  ],
-  "exclude": [
-    "dist",
-    "node_modules"
-  ]
+  "include": ["src/**/*.ts", "tests/**/*.ts", "vitest*.config.ts"],
+  "exclude": ["dist", "node_modules"]
 }
