@@ -1,0 +1,65 @@
+src/test.ts
+  s_65e18f0044c3f2::t_997f3b2c701104 1,7-15
+  s_65e18f0044c3f2::t_3c74ad4500725e 2-6,16
+tsconfig.json
+  h_ec0865e8a99e9f 5
+playwright.config.ts
+  s_65e18f0044c3f2::t_4dac86dc463475 1-4,6-17
+  s_65e18f0044c3f2::t_4220719d374d5d 5
+.gitignore
+  s_65e18f0044c3f2::t_34c60b0b4b3336 9-12
+webpack.config.js
+  s_a2c185a39d1bb2::t_9f69fe045b01db 11
+  h_ec0865e8a99e9f 1-4,13-28
+package.json
+  h_ec0865e8a99e9f 11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "d06c84e44aa127267e77781ed93b56614191a973",
+  "prompts": {},
+  "humans": {
+    "h_ec0865e8a99e9f": {
+      "author": "Claude Sonnet 5 <noreply@anthropic.com>"
+    }
+  },
+  "sessions": {
+    "s_65e18f0044c3f2": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a6f093efd99313abc3246fa",
+        "model": "deepseek-v4-flash"
+      },
+      "human_author": "Claude Sonnet 5 <noreply@anthropic.com>",
+      "custom_attributes": {
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "operation_id": "6a8bf8033f21e2c2e27f1801",
+        "client_type": "ide",
+        "dedupe_key": "6a6f093efd99313abc3246fa:6a8bf8033f21e2c2e27f1801:afterEdit:223fdd3a",
+        "tool_type": "builtin",
+        "tool_use_id": "6a8bf8033f21e2c2e27f1801",
+        "external_session_id": "6a6f093efd99313abc3246fa",
+        "session_id": "6a6f093efd99313abc3246fa",
+        "source_scene": "agent",
+        "runtime_client": "trae-tob-git-ai",
+        "edit_kind": "file_edit"
+      }
+    },
+    "s_a2c185a39d1bb2": {
+      "agent_id": {
+        "tool": "trae-code-edit",
+        "id": "ai_tab-202608241751370100021512265987377",
+        "model": "default"
+      },
+      "human_author": "Claude Sonnet 5 <noreply@anthropic.com>",
+      "custom_attributes": {
+        "external_session_id": "202608241751370100021512265987377",
+        "edit_kind": "file_edit",
+        "tool": "trae-code-edit",
+        "source_scene": "cue",
+        "client_type": "ide"
+      }
+    }
+  }
+}
