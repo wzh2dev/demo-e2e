@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.62.1",
+    "@types/node": "^24.0.0",
     "dotenv": "^17.4.2",
     "typescript": "^7.0.2",
     "webpack": "^5.109.2",

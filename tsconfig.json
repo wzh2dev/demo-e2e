@@ -2,10 +2,8 @@
   "compilerOptions": {
     "module": "es6",
     "target": "es6",
+    "moduleResolution": "node",
     "strict": true,
-    "removeComments": true,
-    "lib": ["es6"],
-    "outDir": "dist"
   },
   "include": ["src/**/*.ts", "tests/**/*.ts", "vitest*.config.ts"],
   "exclude": ["dist", "node_modules"]
