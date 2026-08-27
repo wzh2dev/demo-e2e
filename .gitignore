@@ -10,3 +10,8 @@ dist/
 # Playwright artifacts
 test-results/
 playwright-report/
+
+# Allure artifacts
+allure-results/
+allure-report/
+allure-history.jsonl
