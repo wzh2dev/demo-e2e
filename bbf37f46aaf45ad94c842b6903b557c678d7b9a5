@@ -1,0 +1,86 @@
+.npmrc
+  h_ec0865e8a99e9f 6
+webpack.config.js
+  s_05563f5931c58d::t_7b64dbbf20a17a 1
+  h_ec0865e8a99e9f 2-3,10
+  s_55c072cf1cf5e8::t_ece0ce90d146bf 9
+  s_10ad9bd364057f::t_d6191a3e08a391 4-8
+tsconfig.json
+  s_e9a126d0fa95b3::t_8cdb21a6df7bf4 7
+  h_ec0865e8a99e9f 3-6,8
+.prettierrc
+  h_ec0865e8a99e9f 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "bbf37f46aaf45ad94c842b6903b557c678d7b9a5",
+  "prompts": {},
+  "humans": {
+    "h_ec0865e8a99e9f": {
+      "author": "Claude Sonnet 5 <noreply@anthropic.com>"
+    }
+  },
+  "sessions": {
+    "s_05563f5931c58d": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-c953a54d-7525-4cb2-86dd-15a3fecfb0c4",
+        "model": "default"
+      },
+      "human_author": "Claude Sonnet 5 <noreply@anthropic.com>",
+      "custom_attributes": {
+        "client_type": "ide",
+        "source_scene": "cue",
+        "edit_kind": "file_edit",
+        "tool": "trae-cue",
+        "external_session_id": "icr-c953a54d-7525-4cb2-86dd-15a3fecfb0c4"
+      }
+    },
+    "s_10ad9bd364057f": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-92c321ef-05b5-4fb3-ae62-e4cf03e73e36",
+        "model": "default"
+      },
+      "human_author": "Claude Sonnet 5 <noreply@anthropic.com>",
+      "custom_attributes": {
+        "tool": "trae-cue",
+        "edit_kind": "file_edit",
+        "external_session_id": "icr-92c321ef-05b5-4fb3-ae62-e4cf03e73e36",
+        "client_type": "ide",
+        "source_scene": "cue"
+      }
+    },
+    "s_55c072cf1cf5e8": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-ec30c5a2-e8ea-49e6-aa5b-ac783947a1b1",
+        "model": "default"
+      },
+      "human_author": "Claude Sonnet 5 <noreply@anthropic.com>",
+      "custom_attributes": {
+        "client_type": "ide",
+        "source_scene": "cue",
+        "external_session_id": "icr-ec30c5a2-e8ea-49e6-aa5b-ac783947a1b1",
+        "edit_kind": "file_edit",
+        "tool": "trae-cue"
+      }
+    },
+    "s_e9a126d0fa95b3": {
+      "agent_id": {
+        "tool": "trae-code-edit",
+        "id": "ai_tab-2026082212323401000315516428557A2",
+        "model": "default"
+      },
+      "human_author": "Claude Sonnet 5 <noreply@anthropic.com>",
+      "custom_attributes": {
+        "tool": "trae-code-edit",
+        "external_session_id": "2026082212323401000315516428557A2",
+        "source_scene": "cue",
+        "client_type": "ide",
+        "edit_kind": "file_edit"
+      }
+    }
+  }
+}

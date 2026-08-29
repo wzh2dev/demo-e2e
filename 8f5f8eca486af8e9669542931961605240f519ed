@@ -1,0 +1,24 @@
+package.json
+  h_ec0865e8a99e9f 1-21
+README.md
+  h_ec0865e8a99e9f 1-36
+.nvmrc
+  h_ec0865e8a99e9f 1
+.gitignore
+  h_ec0865e8a99e9f 1-8
+.npmrc
+  h_ec0865e8a99e9f 1-9
+tsconfig.json
+  h_ec0865e8a99e9f 1-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "8f5f8eca486af8e9669542931961605240f519ed",
+  "prompts": {},
+  "humans": {
+    "h_ec0865e8a99e9f": {
+      "author": "Claude Sonnet 5 <noreply@anthropic.com>"
+    }
+  }
+}
