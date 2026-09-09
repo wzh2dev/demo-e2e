@@ -1,0 +1,16 @@
+allurerc.mjs
+  h_ec0865e8a99e9f 14
+README.md
+  h_ec0865e8a99e9f 1,3,5-6,8,10,12,14-19,21,23,25,27-37,39-130,132-138
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "fa4b6db47beaaffe5e211e8f573074389cf5fe0f",
+  "prompts": {},
+  "humans": {
+    "h_ec0865e8a99e9f": {
+      "author": "Claude Sonnet 5 <noreply@anthropic.com>"
+    }
+  }
+}
