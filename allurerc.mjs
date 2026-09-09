@@ -11,7 +11,7 @@ export default defineConfig({
             options: {
                 reportName: "自动化测试报告",
                 reportLanguage: "en",
-                singleFile: false
+                singleFile: true
             }
         }
     }
