@@ -1,25 +1,25 @@
 import { defineConfig, devices, PlaywrightTestConfig } from '@playwright/test'
+import { baseUrl } from 'src/config/env'
 
 const config: PlaywrightTestConfig = {
-  // Look for test files in the "src" directory, relative to this configuration file.
   testDir: './src',
-
-  testMatch: /.*(test|spec)\.ts$/,
+  testMatch: /.*(test|spec)\.ts/,
 
   // Reporter to use
   reporter: 'allure-playwright',
-
   use: {
-    // Collect trace when retrying the failed test.
+    baseURL: baseUrl,
     trace: 'on-first-retry',
-    screenshot: 'only-on-failure'
+    screenshot: 'only-on-failure',
+    headless: false
   },
 
-  // Configure projects for major browsers.
   projects: [
     {
       name: 'web',
       use: { ...devices['Desktop Chrome'] },
+      testDir: './src/specs/web',
+      testMatch: /.*(test|spec)\.ts/
     }
   ]
 }

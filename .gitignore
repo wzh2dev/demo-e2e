@@ -15,3 +15,8 @@ playwright-report/
 allure-results/
 allure-report/
 allure-history.jsonl
+
+.env
+
+# 登录态（含真实凭证，禁止提交）
+auth/

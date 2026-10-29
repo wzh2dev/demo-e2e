@@ -4,7 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "playwright test --headed",
+    "test": "vitest run",
+    "test:web": "playwright test --project=web",
+    "start:web": "playwright test --ui --project=web",
     "allure:generate": "allure generate ./allure-results",
     "allure:open": "allure open"
   },
@@ -14,6 +16,7 @@
     "allure": "^3.16.0",
     "allure-playwright": "^3.11.0",
     "dotenv": "^17.4.2",
-    "typescript": "^7.0.2"
+    "typescript": "^7.0.2",
+    "vitest": "^4.0.0"
   }
 }
