@@ -1,5 +1,5 @@
 import { test as base, expect } from '@playwright/test'
-import { password, username } from 'src/config/env'
+import { password, username } from 'src/utils'
 
 export const test = base.extend({
   page: async ({ page }, use) => {

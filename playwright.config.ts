@@ -1,5 +1,12 @@
 import { defineConfig, devices, PlaywrightTestConfig } from '@playwright/test'
-import { baseUrl } from 'src/config/env'
+import dotenv from 'dotenv'
+import { resolve } from 'node:path'
+
+dotenv.config({ quiet: true, path: resolve(process.cwd(), '.env') })
+
+export const playwrigteBaseUrl = process.env.PLAYWRIGHT_BASE_URL ?? 'http://127.0.0.1:2285'
+export const playwrigteUsername = process.env.PLAYWRIGHT_USERNAME ?? 'admin'
+export const playwrigtePassword = process.env.PLAYWRIGHT_PASSWORD ?? '123456'
 
 const config: PlaywrightTestConfig = {
   testDir: './src/specs/web',
@@ -8,7 +15,7 @@ const config: PlaywrightTestConfig = {
   // Reporter to use
   reporter: 'allure-playwright',
   use: {
-    baseURL: baseUrl,
+    baseURL: playwrigteBaseUrl,
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     headless: false
