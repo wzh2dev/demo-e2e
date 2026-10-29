@@ -2,7 +2,7 @@ import { defineConfig, devices, PlaywrightTestConfig } from '@playwright/test'
 import { baseUrl } from 'src/config/env'
 
 const config: PlaywrightTestConfig = {
-  testDir: './src',
+  testDir: './src/specs/web',
   testMatch: /.*(test|spec)\.ts/,
 
   // Reporter to use
@@ -17,9 +17,7 @@ const config: PlaywrightTestConfig = {
   projects: [
     {
       name: 'web',
-      use: { ...devices['Desktop Chrome'] },
-      testDir: './src/specs/web',
-      testMatch: /.*(test|spec)\.ts/
+      use: { ...devices['Desktop Chrome'] }
     }
   ]
 }
